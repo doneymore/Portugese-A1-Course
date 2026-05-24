@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PortugalLingo A1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-inner">
+      <a href="#/" class="logo">
+        <span class="logo-flag">🇵🇹</span>
+        <span class="logo-text">PortugalLingo</span>
+        <span class="logo-level">A1</span>
+      </a>
+      <nav class="header-nav">
+        <a href="#/" class="nav-link">Home</a>
+        <a href="#/progress" class="nav-link">Progress</a>
+      </nav>
+      <div class="header-stats">
+        <div class="stat-item streak-stat">
+          <span class="stat-icon">🔥</span>
+          <span id="header-streak">0</span>
+        </div>
+        <div class="stat-item xp-stat">
+          <span class="stat-icon">⭐</span>
+          <span id="header-xp">0 XP</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" class="app-main"></main>
+
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Data files -->
+  <script src="js/data/unit1-greetings.js"></script>
+  <script src="js/data/unit2-numbers.js"></script>
+  <script src="js/data/unit3-colors.js"></script>
+  <script src="js/data/unit4-family.js"></script>
+  <script src="js/data/unit5-time.js"></script>
+  <script src="js/data/unit6-verbs.js"></script>
+  <script src="js/data/unit7-food.js"></script>
+  <script src="js/data/unit8-places.js"></script>
+  <script src="js/data/unit9-shopping.js"></script>
+  <script src="js/data/unit10-conversations.js"></script>
+  <script src="js/data/units.js"></script>
+
+  <!-- Core modules -->
+  <script src="js/store.js"></script>
+  <script src="js/srs.js"></script>
+  <script src="js/speech.js"></script>
+  <script src="js/xp.js"></script>
+  <script src="js/router.js"></script>
+
+  <!-- Views -->
+  <script src="js/views/home.js"></script>
+  <script src="js/views/lesson.js"></script>
+  <script src="js/views/flashcards.js"></script>
+  <script src="js/views/quiz.js"></script>
+  <script src="js/views/conversations.js"></script>
+  <script src="js/views/progress.js"></script>
+
+  <!-- App bootstrap -->
+  <script src="js/app.js"></script>
+</body>
+</html>

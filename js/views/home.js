@@ -30,7 +30,7 @@ const HomeView = (() => {
 
     app.innerHTML = `
       <div class="page-header">
-        <h1>Bem-vindo ao PortugalLingo! 🇵🇹</h1>
+        <h1>Bem-vindo ao Falapt! 🇵🇹</h1>
         <p>Learn European Portuguese at your own pace</p>
       </div>
 
